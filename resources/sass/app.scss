@@ -1,1 +1,86 @@
 //
+@use 'bootstrap';
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+// HEADER
+header{
+    background-color: #344a71;
+    color: white;
+    section{
+        min-height: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .center_header{
+            .news{
+                position: relative;
+                span{
+                    position: absolute;
+                    top: 20%;
+                    right: -1.7rem;
+                    font-size: .4rem;
+                    background: white;
+                    color: black;
+                    border-radius: 10px;
+                    padding: 0.3rem;
+                }
+            }
+            .options{
+                width: calc(100%/5);
+                min-height: 4rem;
+                display: flex;
+                align-items: center;
+                margin: 0 1rem;
+                &:hover{
+                    border-bottom: 5px solid white;
+                }
+                &:hover a{
+                    color: white;
+                }
+                a{
+                    text-decoration: none;
+                    color: rgb(195, 195, 195);
+                }
+            }
+        }
+        .right_header{
+            align-items: center;
+            i{
+                padding: .5rem;
+                background: #808080a1;
+                border-radius: 10px;
+                margin: 0 1rem;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            span{
+                font-size: 1rem;
+                margin-right: 1rem;
+                &:hover{
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+            button{
+                background: transparent;
+                color: white;
+                border: 2px solid white;
+                border-radius: 34px;
+                padding: 0.4rem;
+                &:hover{
+                    cursor: pointer;
+                    background-color: white;
+                    color: #344a71;
+                    transition: 1s ease-in-out;
+                }
+            }
+        }
+    }
+}
+// end header 
