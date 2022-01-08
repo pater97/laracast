@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('homePage');
+    $squares = config('laradb.square');
+    return view('homePage',compact('squares'));
 });

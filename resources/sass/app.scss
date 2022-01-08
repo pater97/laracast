@@ -5,6 +5,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    background-color: #f7f8fc;
 }
 
 // HEADER
@@ -84,3 +85,17 @@ header{
     }
 }
 // end header 
+// SQUARE_ONE 
+.square_one{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    h6{
+        background-color: red;
+        width: 8rem;
+        text-align: center;
+        border-radius: 20px;
+        color: white;
+        padding: 0.5rem;
+    }
+}

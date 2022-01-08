@@ -11247,6 +11247,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Noto Sans", sans-serif;
   font-family: "Poppins", sans-serif;
+  background-color: #f7f8fc;
 }
 
 header {
@@ -11321,4 +11322,18 @@ header section .right_header button:hover {
   background-color: white;
   color: #344a71;
   transition: 1s ease-in-out;
+}
+
+.square_one {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+.square_one h6 {
+  background-color: red;
+  width: 8rem;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  padding: 0.5rem;
 }
